@@ -1,0 +1,23 @@
+{
+  "name": "tstutorial",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "(npx parcel serve ./index.html) && (npx parcel watch./index.html)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rb-immosolve/tsTutorial.git"
+  },
+  "author": "Rahul Bhatnagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rb-immosolve/tsTutorial/issues"
+  },
+  "homepage": "https://github.com/rb-immosolve/tsTutorial#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "prettier": "3.0.3"
+  }
+}
