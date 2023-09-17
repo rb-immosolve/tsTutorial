@@ -28,8 +28,12 @@ const menu: Menu[] = [
   { name: 'Hot Dog', cost: 100 }
 ]
 
-printMenu(menu)
-console.log(airplaneHtml(airplane))
+const airplaneDiv = document.getElementById('aeroplanetest')
+if (airplaneDiv != null) {
+  airplaneDiv.innerHTML = airplaneHtml(airplane)
+}
+
 printArray()
+printMenu(menu)
 console.log(findInArray('Sara'))
 console.log(findInArray('Menyew'))
